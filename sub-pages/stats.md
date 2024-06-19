@@ -1,0 +1,8 @@
+![GitHub forks](https://img.shields.io/github/forks/ratwashere/bmods)
+![GitHub watchers](https://img.shields.io/github/watchers/ratwashere/bmods)
+![GitHub Repo stars](https://img.shields.io/github/stars/ratwashere/bmods)
+![GitHub issues](https://img.shields.io/github/issues-raw/ratwashere/bmods)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ratwashere/bmods)
+![GitHub contributors](https://img.shields.io/github/contributors/ratwashere/bmods)
+![GitHub last commit](https://img.shields.io/github/last-commit/ratwashere/bmods)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ratwashere/bmods)
