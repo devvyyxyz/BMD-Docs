@@ -3,36 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mod Creation Guide - Studio Bot Maker Mods Documentation</title>
+    <title>Bot Maker For Discord Mods | Documentation</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Studio Bot Maker Mods Documentation</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="getting-started.html">Getting Started</a></li>
-                <li><a href="mod-list.html">Mod List</a></li>
-                <li><a href="mod-creation-guide.html">Mod Creation Guide</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
+        <div id="navbar"></div>
     </header>
     <main>
-        <h2>Mod Creation Guide</h2>
-        <p>This guide will help you create your own mods for Studio Bot Maker.</p>
-        <h3>Steps to Create a Mod</h3>
-        <ol>
-            <li>Setup Development Environment</li>
-            <li>Understand the Mod Structure</li>
-            <li>Coding the Mod</li>
-            <li>Testing the Mod</li>
-            <li>Publishing the Mod</li>
-        </ol>
+        <zero-md src="sub-pages/mod-creation-guide.md"></zero-md>
     </main>
-    <footer>
-        <p>&copy; 2024 Studio Bot Maker Mods</p>
-    </footer>
+    <div id="footer"></div>
+    <script src="js/scripts.js"></script>
+    <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <!-- Load the element definition -->
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#navbar").load("../parts/navbar.html");
+            $("#footer").load("../parts/footer.html");
+        });
+    </script>
 </body>
 </html>
